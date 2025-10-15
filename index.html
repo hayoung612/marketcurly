@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>마켓컬리 클론</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header>
+    <div class="header-container">
+      <!-- 좌측 여백 -->
+      <div class="left"></div>
+
+      <!-- 가운데 영역 -->
+      <div class="center">
+        <!-- 1행: 상단 메뉴 -->
+        <div class="header-top">
+          <ul class="top-menu">
+            <li><a href="#">회원가입</a></li>
+            <li><a href="#">로그인</a></li>
+            <li><a href="#">고객센터</a></li>
+          </ul>
+        </div>
+
+        <!-- 2행: 로고 / 메뉴 / 검색 / 아이콘 -->
+        <div class="header-middle">
+          <div class="logo">
+            <img src="img/마켓컬리 로고.svg" alt="Kurly 로고" class="kurly-logo">
+          </div>
+
+          <!-- 메뉴 왼쪽 -->
+          <div class="menu">
+            <button id="marketMenu" class="menu-btn">마켓컬리</button>
+            <button id="beautyMenu" class="menu-btn">뷰티컬리</button>
+          </div>
+
+          <!-- 검색창 오른쪽 -->
+          <div class="search-box">
+            <input type="text" placeholder="검색어를 입력해주세요">
+            <button class="search-btn">🔍</button>
+          </div>
+
+          <div class="icons">
+            <button class="icon">📍</button>
+            <button class="icon">❤️</button>
+            <button class="icon">🛒</button>
+          </div>
+        </div>
+
+        <!-- 3행: 카테고리 / 주요 메뉴 / 배송 안내 -->
+        <div class="header-bottom">
+          <div class="category">
+            <button class="hamburger">☰</button>
+            <span>카테고리</span>
+          </div>
+
+          <ul class="main-menu">
+            <li><a href="#">신상품</a></li>
+            <li><a href="#">베스트</a></li>
+            <li><a href="#">알뜰쇼핑</a></li>
+            <li><a href="#">특가</a></li>
+            <li><a href="#">혜택</a></li>
+          </ul>
+
+          <button class="delivery-info">샛별·하루 배송안내</button>
+        </div>
+      </div>
+
+      <!-- 우측 여백 -->
+      <div class="right"></div>
+    </div>
+  </header>
+   <section class="slider">
+  <div class="slides">
+    <div class="slide"><img src="img/s1.png" alt="슬라이드1"></div>
+    <div class="slide"><img src="img/s2.png" alt="슬라이드2"></div>
+    <div class="slide"><img src="img/s3.png" alt="슬라이드3"></div>
+  </div>
+</section>
+<section class="best-items">
+  <div class="container">
+    
+    <!-- 섹션 제목 및 홍보 문구 -->
+    <div class="section-header">
+      <h2>컬리 추천! 놓치면 후회할 베스트 아이템</h2>
+      <p>신선함은 기본, 고객님들의 재구매율이 가장 높은 엄선된 상품들만 모았습니다.</p>
+    </div>
+
+    <!-- 4개의 아이템 카드 -->
+    <div class="cards-grid">
+      
+      <div class="item-card">
+        <div class="item-icon">🥩</div>
+        <h3>오늘의 신선 특가</h3>
+        <p>지금 바로 득템하세요!</p>
+      </div>
+
+      <div class="item-card">
+        <div class="item-icon">🥦</div>
+        <h3>베스트 상품 100</h3>
+        <p>가장 많이 찾는 상품</p>
+      </div>
+
+      <div class="item-card">
+        <div class="item-icon">🥐</div>
+        <h3>컬리 온리 상품</h3>
+        <p>오직 컬리에서만!</p>
+      </div>
+
+      <div class="item-card">
+        <div class="item-icon">🧀</div>
+        <h3>알뜰 상품 모음</h3>
+        <p>가성비 최고 할인</p>
+      </div>
+
+      
+      <div class="item-card">
+        <div class="item-icon">🧁</div>
+        <h3>인기 연예인들도 원하는!</h3>
+        <p>호텔쉐프 특제 디저트!!</p>
+      </div>
+
+      <div class="item-card">
+        <div class="item-icon">🍮</div>
+        <h3>일본 수입 제품!!</h3>
+        <p>일본까지 안가도 된다!!!!</p>
+      </div>
+
+      <div class="item-card">
+        <div class="item-icon">🍘</div>
+        <h3>100년 정통 수제 음식</h3>
+        <p>단 하루 특별세일!!</p>
+      </div>
+
+      <div class="item-card">
+        <div class="item-icon">🥘</div>
+        <h3>알뜰 상품 모음</h3>
+        <p>가성비 최고 할인</p>
+      </div>
+    </div>
+    
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="footer-container">
+    <!-- 왼쪽: 상호명 -->
+    <div class="footer-left">
+      <h3>(주) 퍼플마켓</h3>
+    </div>
+
+    <!-- 오른쪽: 회사 정보 및 링크 -->
+    <div class="footer-right">
+      <p>대표이사: 김보라 | 사업자등록번호: 123-45-67890</p>
+      <p>주소: 서울특별시 강남구 테헤란로 123, 퍼플타워 10층고객센터: 1644-0000 | 이메일: help@purplemarket.co.kr</p>
+      <div class="footer-links">
+        <a href="#">이용약관</a>
+        <a href="#">개인정보처리방침</a>
+        <a href="#">공지사항</a>
+      </div>
+      <p class="copyright">ⓒ 2025 PURPLE MARKET Co., Ltd. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+
+
+</body>
+</html>
